@@ -1,0 +1,18 @@
+{
+  "name": "vc-toptip",
+  "version": "0.1.0",
+  "description": "Toptip vue component",
+  "main": "src/vc-toptip.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Randy Lu <randypriv@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "insert-css": "^0.2.0",
+    "jade": "^1.11.0",
+    "node-sass": "^3.3.3",
+    "vue": "^0.12.16",
+    "vueify": "^2.0.1"
+  }
+}
