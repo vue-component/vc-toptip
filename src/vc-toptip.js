@@ -4,7 +4,6 @@
       Vue.component('vcToptip', {
         template: '<div id="vc-toptip" :class="[message.status]" v-show="show", transition="vc-toptip">{{ message.content }}</div>',
         created: function(){
-          console.log('created');
           this.$on('showTip', function(message){
             this.showTip(message);
           }.bind(this))
