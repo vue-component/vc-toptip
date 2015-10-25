@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>vc-toptip test</title>
+    <link rel="stylesheet" href="/vc-toptip.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.0-rc.2/vue.min.js"></script>
+  </head>
+  <body>
+    <h1> vc-toptip </h1>
+    <div id="app">
+      <vc-toptip></vc-toptip>
+      <p>
+        <input type="text" v-model="content" placeholder="message"/>
+        <input type="text" v-model="duration" placeholder="duration"/> ms
+      </p>
+      <p>
+        <input type="radio" id="error" value="error" v-model="status" />
+        <label for="error">error</label>
+        <input type="radio" id="success" value="success" v-model="status" />
+        <label for="success">success</label>
+        <input type="radio" id="warning" value="warning" v-model="status" />
+        <label for="warning">warning</label>
+      </p>
+      <button @click="show">show</button>
+    </div>
+    <script type="text/javascript" src="/vc-toptip.js"></script>
+    <script type="text/javascript">
+      var app = new Vue({
+        el: '#app',
+        data: {
+          status: 'error',
+          content: 'input a message',
+          duration: 2000
+        },
+        methods: {
+          show: function(){
+            this.$broadcast('showTip', {
+              status: this.status,
+              content: this.content,
+              duration: this.duration
+            })
+          }
+        }
+      })
+    </script>
+  </body>
+</html>

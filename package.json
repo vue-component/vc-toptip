@@ -2,9 +2,10 @@
   "name": "vc-toptip",
   "version": "0.1.0",
   "description": "Toptip vue component",
-  "main": "src/vc-toptip.vue",
+  "main": "src/vc-toptip.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ln dist/vc-toptip.css test/vc-toptip.css && ln dist/vc-toptip.dist.js test/vc-toptip.js",
+    "build": "scss src/vc-toptip.scss:dist/vc-toptip.css && uglifyjs src/vc-toptip.js -o dist/vc-toptip.dist.js"
   },
   "author": "Randy Lu <randypriv@gmail.com>",
   "license": "MIT",

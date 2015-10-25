@@ -1,0 +1,36 @@
+.vc-toptip-transition {
+  transition: all .3s ease;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.vc-toptip-enter, .vc-toptip-leave {
+  height: 0;
+  padding: 0;
+}
+#vc-toptip{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  &.error{
+    border-bottom: 1px solid #ebccd1;
+    color: #a94442;
+    background-color: #f2dede;
+  }
+
+  &.warning{
+    border-bottom: 1px solid #faebcc;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+  }
+
+  &.success{
+    border-bottom: 1px solid #d6e9c6;
+    color: #3c763d;
+    background-color: #dff0d8;
+  }
+}
