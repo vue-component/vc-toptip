@@ -2,7 +2,7 @@
 [![NPM version](https://img.shields.io/npm/v/runfile.svg?style=flat-square)](https://www.npmjs.com/package/vc-toptip)
 [![NPM download](https://img.shields.io/npm/dm/runfile.svg?style=flat-square)](https://www.npmjs.com/package/vc-toptip)
 
-A simple toptip Vue component
+A simple toptip Vue (`v1.0.0+`) component
 
 ## Install
 
@@ -12,6 +12,8 @@ $ npm install vc-toptip
 or use `dist/vc-toptip.dist.js` directly.
 
 ## Usage
+
+[Example](https://github.com/vue-component/vc-toptip/blob/master/test/index.html)
 
 ```javascript
 Vue.use(require('vc-toptip'))
