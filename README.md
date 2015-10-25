@@ -4,6 +4,10 @@
 
 A simple toptip Vue (`v1.0.0+`) component
 
+## Demo
+
+http://vue-component.github.io/vc-toptip/test/
+
 ## Install
 
 ```bash
