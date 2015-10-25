@@ -1,6 +1,7 @@
 {
   "name": "vc-toptip",
   "version": "0.1.0",
+  "homepage": "https://github.com/vue-component/vc-toptip",
   "description": "Toptip vue component",
   "main": "src/vc-toptip.js",
   "scripts": {
@@ -8,12 +9,9 @@
     "build": "scss src/vc-toptip.scss:dist/vc-toptip.css && uglifyjs src/vc-toptip.js -o dist/vc-toptip.dist.js"
   },
   "author": "Randy Lu <randypriv@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "insert-css": "^0.2.0",
-    "jade": "^1.11.0",
-    "node-sass": "^3.3.3",
-    "vue": "^0.12.16",
-    "vueify": "^2.0.1"
-  }
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/vue-component/vc-toptip.git"
+  },
+  "license": "MIT"
 }
