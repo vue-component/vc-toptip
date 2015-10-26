@@ -1,6 +1,6 @@
 # vc-toptip
-[![NPM version](https://img.shields.io/npm/v/runfile.svg?style=flat-square)](https://www.npmjs.com/package/vc-toptip)
-[![NPM download](https://img.shields.io/npm/dm/runfile.svg?style=flat-square)](https://www.npmjs.com/package/vc-toptip)
+[![NPM version](https://img.shields.io/npm/v/vc-toptip.svg?style=flat-square)](https://www.npmjs.com/package/vc-toptip)
+[![NPM download](https://img.shields.io/npm/dm/vc-toptip.svg?style=flat-square)](https://www.npmjs.com/package/vc-toptip)
 
 A simple toptip Vue (`v1.0.0+`) component
 
